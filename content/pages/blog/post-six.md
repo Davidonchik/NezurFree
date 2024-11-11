@@ -69,15 +69,3 @@ bottomSections: []
         </div>
     </div>
 
-    <script>
-        function copyToClipboard() {
-            const code = document.getElementById('codeBlock').innerText;
-            navigator.clipboard.writeText(code)
-                .then(() => alert("Скопировано в буфер обмена!"))
-                .catch(err => console.error('Ошибка при копировании: ', err));
-        }
-    </script>
-
-</body>
-</html>
-
