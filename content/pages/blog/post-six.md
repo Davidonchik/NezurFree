@@ -102,13 +102,13 @@ bottomSections:
       text:
         textAlign: left
 ---
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-    &lt;meta charset=&quot;UTF-8&quot;&gt;
-    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
-    &lt;title&gt;Blade Ball Script&lt;/title&gt;
-    &lt;style&gt;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blade Ball Script</title>
+    <style>
         body {
             background-color: #121212;
             color: #ffffff;
@@ -158,18 +158,18 @@ bottomSections:
         button:hover {
             background-color: #00cc70;
         }
-    &lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-    &lt;div class=&quot;container&quot;&gt;
-        &lt;h1&gt;Blade Ball Script&lt;/h1&gt;
-        &lt;div class=&quot;code-container&quot;&gt;
-            &lt;pre&gt;&lt;code id=&quot;codeBlock&quot;&gt;loadstring(game:HttpGet(&quot;https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua&quot;, true))()&lt;/code&gt;&lt;/pre&gt;
-            &lt;button onclick=&quot;copyToClipboard()&quot;&gt;Copy&lt;/button&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Blade Ball Script</h1>
+        <div class="code-container">
+            <pre><code id="codeBlock">loadstring(game:HttpGet(&quot;https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua&quot;, true))()</code></pre>
+            <button onclick="copyToClipboard()">Copy</button>
+        </div>
+    </div>
 
-    &lt;script&gt;
+    <script>
         function copyToClipboard() {
             const code = document.getElementById(&#39;codeBlock&#39;).innerText;
             const textArea = document.createElement(&#39;textarea&#39;);
@@ -180,6 +180,6 @@ bottomSections:
             document.body.removeChild(textArea);
             alert(&#39;Code copied to clipboard!&#39;);
         }
-    &lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+    </script>
+</body>
+</html>
