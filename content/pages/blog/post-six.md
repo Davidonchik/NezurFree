@@ -180,8 +180,3 @@ transition: opacity 0.3s ease;
 </div>
 </div>
 
-\<script>
-function copyToClipboard() {
-// Get the text from the code block
-const codeBlock = document.getElementById("codeBlock").textContent;
-
