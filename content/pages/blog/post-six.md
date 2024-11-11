@@ -103,7 +103,6 @@ bottomSections:
         textAlign: left
 ---
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -165,7 +164,7 @@ bottomSections:
     <div class="container">
         <h1>Blade Ball Script</h1>
         <div class="code-container">
-            <pre><code id="codeBlock">loadstring(game:HttpGet("https\://raw\.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()</code></pre>
+            <pre><code id="codeBlock">loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()</code></pre>
             <button onclick="copyToClipboard()">Copy</button>
         </div>
     </div>
@@ -182,7 +181,5 @@ bottomSections:
             alert('Code copied to clipboard!');
         }
     </script>
-
 </body>
 </html>
-
