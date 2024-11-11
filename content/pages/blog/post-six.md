@@ -11,15 +11,7 @@ featuredImage:
   altText: Post thumbnail image
 bottomSections: []
 ---
-###### <!DOCTYPE html>
-
-###### <html lang="en">
-
-###### <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blade Ball Script</title>
-    <style>
+###### `<!DOCTYPE html><html lang="en"> <head>     <meta charset="UTF-8">     <meta name="viewport" content="width=device-width, initial-scale=1.0">     <title>Blade Ball Script</title>     <style>
         body {
             background-color: #121212;
             color: #ffffff;
@@ -68,24 +60,15 @@ bottomSections: []
         }
         button:hover {
             background-color: #00cc70;
-        }
-    </style>
-
-###### </head>
-<body>
-    <div class="container">
-        <h1>Blade Ball Script</h1>
-        <div class="code-container">
-            <span class="code">loadstring(game:HttpGet("https\://raw\.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()</span>
-            <button onclick="copyToClipboard()">Copy</button>
-        </div>
-    </div>\<script>
+        }     </style> </head> <body>     <div class="container">         <h1>Blade Ball Script</h1>         <div class="code-container">             <span class="code">loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()</span>             <button onclick="copyToClipboard()">Copy</button>         </div>     </div><script>
     function copyToClipboard() {
         const code = document.querySelector('.code').innerText;
         navigator.clipboard.writeText(code)
             .then(() => alert("Скопировано в буфер обмена!"))
             .catch(err => console.error('Ошибка при копировании: ', err));
-    }
-</script></body>
-</html>
+    } </script></body> </html>``
+``
+
+`
+-
 
