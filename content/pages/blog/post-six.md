@@ -178,5 +178,4 @@ transition: opacity 0.3s ease;
 <button onclick="copyToClipboard()">Copy</button>
 <div id="copyMessage" class="copy-message">Copied!</div>
 </div>
-</div>
 
