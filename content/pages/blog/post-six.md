@@ -11,9 +11,7 @@ featuredImage:
   altText: Post thumbnail image
 bottomSections: []
 ---
-<sub><!DOCTYPE html></sub>
-
-<sub><html lang="en">
+<sup><!DOCTYPE html></sup><sup><html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -74,20 +72,16 @@ bottomSections: []
     <div class="container">
         <h1>Blade Ball Script</h1>
         <div class="code-container">
-            <span class="code">loadstring(game:HttpGet("https\://raw\.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()</span>
+            <span class="code">loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()</span>
             <button onclick="copyToClipboard()">Copy</button>
         </div>
-    </div></sub>
-
-    <sub><script>
-        function copyToClipboard() {
-            const code = document.querySelector('.code').innerText;
-            navigator.clipboard.writeText(code)
-                .then(() => alert("Скопировано в буфер обмена!"))
-                .catch(err => console.error('Ошибка при копировании: ', err));
-        }
-    </script></sub>
-
-<sub></body>
-</html></sub>
+    </div></sup><sup><script>
+    function copyToClipboard() {
+        const code = document.querySelector('.code').innerText;
+        navigator.clipboard.writeText(code)
+            .then(() => alert("Скопировано в буфер обмена!"))
+            .catch(err => console.error('Ошибка при копировании: ', err));
+    }
+</script></sup><sup></body>
+</html></sup>
 
