@@ -11,11 +11,10 @@ featuredImage:
   altText: Post thumbnail image
 bottomSections: []
 ---
-<sup>undefined</sup>
+<sub><!DOCTYPE html></sub>
 
-<sub><sup></sub><sub><html lang="en"></sub>
-
-<sub><head>
+<sub><html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blade Ball Script</title>
@@ -78,20 +77,17 @@ bottomSections: []
             <span class="code">loadstring(game:HttpGet("https\://raw\.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()</span>
             <button onclick="copyToClipboard()">Copy</button>
         </div>
-    </div></sup></sub>
+    </div></sub>
 
-```
-<sub><sup><script>
-    function copyToClipboard() {
-        const code = document.querySelector('.code').innerText;
-        navigator.clipboard.writeText(code)
-            .then(() => alert("Скопировано в буфер обмена!"))
-            .catch(err => console.error('Ошибка при копировании: ', err));
-    }
-</script></sup></sub>
-```
+    <sub><script>
+        function copyToClipboard() {
+            const code = document.querySelector('.code').innerText;
+            navigator.clipboard.writeText(code)
+                .then(() => alert("Скопировано в буфер обмена!"))
+                .catch(err => console.error('Ошибка при копировании: ', err));
+        }
+    </script></sub>
 
-<sub><sup></sub><sub></body></sub>
-
-<sub></html></sup></sub>
+<sub></body>
+</html></sub>
 
