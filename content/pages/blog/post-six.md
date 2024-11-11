@@ -11,7 +11,7 @@ featuredImage:
   altText: Post thumbnail image
 bottomSections: []
 ---
-<sup><!DOCTYPE html></sup><sup><html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -75,13 +75,13 @@ bottomSections: []
             <span class="code">loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()</span>
             <button onclick="copyToClipboard()">Copy</button>
         </div>
-    </div></sup><sup><script>
+    </div><script>
     function copyToClipboard() {
         const code = document.querySelector('.code').innerText;
         navigator.clipboard.writeText(code)
             .then(() => alert("Скопировано в буфер обмена!"))
             .catch(err => console.error('Ошибка при копировании: ', err));
     }
-</script></sup><sup></body>
-</html></sup>
+</script></body>
+</html>
 
