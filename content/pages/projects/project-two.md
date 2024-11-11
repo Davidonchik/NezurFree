@@ -3,7 +3,7 @@ type: ProjectLayout
 title: Another cool project
 colors: colors-a
 date: '2021-12-20'
-client: Roblox Previous Version
+client: ''
 description: >-
   This is the previous version of Roblox. The bot rolls it back so that Nezur
   can work normally.
