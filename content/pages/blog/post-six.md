@@ -111,7 +111,6 @@ bottomSections:
 <title>Blade Ball Script</title>
 <style>
 body {
-background-color: #121212;
 color: #ffffff;
 font-family: Arial, sans-serif;
 display: flex;
