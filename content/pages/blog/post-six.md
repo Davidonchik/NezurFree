@@ -102,60 +102,71 @@ bottomSections:
       text:
         textAlign: left
 ---
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
 
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Blade Ball Script</title>
 <style>
 body {
-color: #ffffff;
-font-family: Arial, sans-serif;
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100vh;
-margin: 0;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 .container {
-background-color: #1e1e1e;
-padding: 20px;
-border-radius: 8px;
-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
-max-width: 600px;
-width: 100%;
-text-align: center;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
 }
 h1 {
-font-size: 24px;
-margin-bottom: 20px;
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 .code-container {
-background-color: #333333;
-padding: 15px;
-border-radius: 5px;
-color: #00ff88;
-text-align: left;
-font-family: monospace;
-font-size: 14px;
-white-space: pre-wrap;
-position: relative;
+    background-color: #333333;
+    padding: 15px;
+    border-radius: 5px;
+    color: #00ff88;
+    text-align: left;
+    font-family: monospace;
+    font-size: 14px;
+    white-space: pre-wrap;
+    position: relative;
 }
 button {
-background-color: #00ff88;
-color: #121212;
-border: none;
-padding: 8px 12px;
-border-radius: 5px;
-cursor: pointer;
-font-weight: bold;
-position: absolute;
-top: 10px;
-right: 10px;
+    background-color: #00ff88;
+    color: #121212;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    transition: background-color 0.3s ease;
 }
 button:hover {
-background-color: #00cc70;
+    background-color: #00cc70;
+}
+.copy-message {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    color: #00ff88;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }
 </style>
 </head>
@@ -163,8 +174,36 @@ background-color: #00cc70;
 <div class="container">
 <h1>Blade Ball Script</h1>
 <div class="code-container">
-<pre><code id="codeBlock">loadstring(game:HttpGet("https\\://raw\\.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()</code></pre>
+<pre><code id="codeBlock">loadstring(game:HttpGet("https\\\\://raw\\\\.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()</code></pre>
 <button onclick="copyToClipboard()">Copy</button>
+<div id="copyMessage" class="copy-message">Copied!</div>
 </div>
 </div>
+
+\<script>
+function copyToClipboard() {
+    // Get the text from the code block
+    const codeBlock = document.getElementById("codeBlock").textContent;
+
+    // Create a temporary text area to copy the content to clipboard
+    const textarea = document.createElement("textarea");
+    textarea.value = codeBlock;
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand("copy");
+    document.body.removeChild(textarea);
+
+    // Show the "Copied!" message
+    const copyMessage = document.getElementById("copyMessage");
+    copyMessage.style.opacity = 1;
+
+    // Hide the message after 300ms
+    setTimeout(() => {
+        copyMessage.style.opacity = 0;
+    }, 300);
+}
+</script>
+
+</body>
+</html>
 
