@@ -102,9 +102,7 @@ bottomSections:
       text:
         textAlign: left
 ---
-```
-<!DOCTYPE html>
-```
+> <!DOCTYPE html>
 
 <html lang="en">
 <head>
@@ -187,11 +185,4 @@ bottomSections:
 </body>
 </html>
 ```
-
-
-
-
-
-
-
 
