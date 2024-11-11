@@ -12,7 +12,6 @@ featuredImage:
 bottomSections: []
 ---
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -42,6 +41,4 @@ bottomSections: []
             white-space: pre-wrap;
             position: relative;
         }
-
- 
 
