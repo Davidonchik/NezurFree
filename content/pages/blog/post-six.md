@@ -143,6 +143,21 @@ bottomSections:
             white-space: pre-wrap;
             position: relative;
         }
+        button {
+            background-color: #00ff88;
+            color: #121212;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        button:hover {
+            background-color: #00cc70;
+        }
     </style>
 </head>
 <body>
@@ -150,7 +165,21 @@ bottomSections:
         <h1>Blade Ball Script</h1>
         <div class="code-container">
             <pre><code id="codeBlock">loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()</code></pre>
+            <button onclick="copyToClipboard()">Copy</button>
         </div>
     </div>
+
+    <script>
+        function copyToClipboard() {
+            const code = document.getElementById('codeBlock').innerText;
+            const textArea = document.createElement('textarea');
+            textArea.value = code;
+            document.body.appendChild(textArea);
+            textArea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textArea);
+            alert('Code copied to clipboard!');
+        }
+    </script>
 </body>
 </html>
