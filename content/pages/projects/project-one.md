@@ -11,7 +11,7 @@ description: >-
 featuredImage:
   type: ImageBlock
   url: /images/Remove-bg.ai_1731335160593-transformed.png
-  altText: Project thumbnail image
+  altText: Nezur logo
 media:
   type: ImageBlock
   url: /images/bg1.jpg
