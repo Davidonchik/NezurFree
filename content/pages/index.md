@@ -49,11 +49,9 @@ sections:
     actions:
       - type: Link
         label: See all scripts
-        url: /blog
+        url: /scripts
     posts:
       - content/pages/blog/post-six.md
-      - content/pages/blog/post-four.md
-      - content/pages/blog/post-three.md
     showDate: true
     showExcerpt: true
     showReadMoreLink: true
