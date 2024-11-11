@@ -169,7 +169,3 @@ bottomSections:
             <button onclick="copyToClipboard()">Copy</button>
         </div>
     </div>
-
-
-</body>
-</html>
