@@ -170,6 +170,3 @@ background-color: #00cc70;
 </div>
 </div>
 
-</body>
-</html>
-
