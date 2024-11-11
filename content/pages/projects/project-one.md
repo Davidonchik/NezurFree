@@ -10,7 +10,7 @@ description: >-
   most of the time.
 featuredImage:
   type: ImageBlock
-  url: /images/Снимок_экрана_2024-11-06_002625-removebg.png
+  url: /images/Remove-bg.ai_1731335160593-transformed.png
   altText: Project thumbnail image
 media:
   type: ImageBlock
