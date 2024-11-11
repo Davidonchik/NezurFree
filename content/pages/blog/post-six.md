@@ -169,6 +169,7 @@ bottomSections:
         </div>
     </div>
 
+    <!-- Скрипт должен быть внизу перед закрывающим тегом body -->
     <script>
         function copyToClipboard() {
             const code = document.getElementById('codeBlock').innerText;
