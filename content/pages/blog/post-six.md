@@ -106,7 +106,6 @@ bottomSections:
 <!DOCTYPE html>
 ```
 
-```
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -168,11 +167,10 @@ bottomSections:
     <div class="container">
         <h1>Blade Ball Script</h1>
         <div class="code-container">
-            <span class="code">loadstring(game:HttpGet(\"https\://raw\.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua\", true))()</span>
+            <span class="code">loadstring(game:HttpGet(\\"https\\://raw\\.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua\\", true))()</span>
             <button onclick="copyToClipboard()">Copy</button>
         </div>
     </div>
-```
 
 ```
 <script>
@@ -189,4 +187,11 @@ bottomSections:
 </body>
 </html>
 ```
+
+
+
+
+
+
+
 
