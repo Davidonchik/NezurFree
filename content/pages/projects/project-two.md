@@ -11,7 +11,7 @@ description: >-
 featuredImage:
   type: ImageBlock
   url: /images/addtext_com_MjAzMzM3NjgwMjg (1).jpg
-  altText: Project thumbnail image
+  altText: Roblox logo
 media:
   type: ImageBlock
   url: /images/bg2.jpg
