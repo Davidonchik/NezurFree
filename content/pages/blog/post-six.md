@@ -165,23 +165,24 @@ bottomSections:
     <div class="container">
         <h1>Blade Ball Script</h1>
         <div class="code-container">
-            <pre><code id="codeBlock">loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()</code></pre>
+            <pre><code id="codeBlock">loadstring(game:HttpGet("https\://raw\.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()</code></pre>
             <button onclick="copyToClipboard()">Copy</button>
         </div>
     </div>
 
-<script>
-    function copyToClipboard() {
-        const code = document.getElementById('codeBlock').innerText;
-        const textArea = document.createElement('textarea');
-        textArea.value = code;
-        document.body.appendChild(textArea);
-        textArea.select();
-        document.execCommand('copy');
-        document.body.removeChild(textArea);
-        alert('Code copied to clipboard!');
-    }
-</script>
+    <script>
+        function copyToClipboard() {
+            const code = document.getElementById('codeBlock').innerText;
+            const textArea = document.createElement('textarea');
+            textArea.value = code;
+            document.body.appendChild(textArea);
+            textArea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textArea);
+            alert('Code copied to clipboard!');
+        }
+    </script>
 
 </body>
 </html>
+
