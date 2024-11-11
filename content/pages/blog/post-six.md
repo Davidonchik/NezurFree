@@ -11,11 +11,11 @@ featuredImage:
   altText: Post thumbnail image
 bottomSections: []
 ---
-<!DOCTYPE html>
+###### <!DOCTYPE html>
 
-<html lang="en">
+###### <html lang="en">
 
-<head>
+###### <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blade Ball Script</title>
@@ -71,16 +71,15 @@ bottomSections: []
         }
     </style>
 
-
-</head>
+###### </head>
 <body>
     <div class="container">
         <h1>Blade Ball Script</h1>
         <div class="code-container">
-            <span class="code">loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()</span>
+            <span class="code">loadstring(game:HttpGet("https\://raw\.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()</span>
             <button onclick="copyToClipboard()">Copy</button>
         </div>
-    </div><script>
+    </div>\<script>
     function copyToClipboard() {
         const code = document.querySelector('.code').innerText;
         navigator.clipboard.writeText(code)
