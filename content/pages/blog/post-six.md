@@ -103,6 +103,7 @@ bottomSections:
         textAlign: left
 ---
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -179,29 +180,3 @@ transition: opacity 0.3s ease;
 </div>
 </div>
 
-    <script>
-        function copyToClipboard() {
-            // Get the text from the code block
-            const codeBlock = document.getElementById("codeBlock").textContent;
-
-            // Create a temporary text area to copy the content to clipboard
-            const textarea = document.createElement("textarea");
-            textarea.value = codeBlock;
-            document.body.appendChild(textarea);
-            textarea.select();
-            document.execCommand("copy");
-            document.body.removeChild(textarea);
-
-            // Show the "Copied!" message
-            const copyMessage = document.getElementById("copyMessage");
-            copyMessage.style.opacity = 1;
-
-            // Hide the message after 300ms
-            setTimeout(() => {
-                copyMessage.style.opacity = 0;
-            }, 300);
-        }
-    </script>
-
-</body>
-</html>
