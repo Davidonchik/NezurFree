@@ -1,6 +1,6 @@
 ---
 type: PostLayout
-title: Blade Ball Plontium.lua 3.7.2
+title: Blade Ball Plontium.lua
 colors: colors-a
 date: '2024-11-11'
 excerpt: The best frequently updated script for blade ball.
