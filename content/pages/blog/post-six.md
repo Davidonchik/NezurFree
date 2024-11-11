@@ -92,9 +92,6 @@ bottomSections: []
             .catch(err => console.error('Ошибка при копировании: ', err));
     }
 </script>
-```
-
-```
 </body>
 </html>
 ```
