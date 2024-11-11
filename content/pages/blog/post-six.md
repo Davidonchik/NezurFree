@@ -12,6 +12,7 @@ featuredImage:
 bottomSections: []
 ---
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -32,6 +33,7 @@ bottomSections: []
             text-align: center;
         }
         .code-container {
+            background-color: #333333;
             padding: 15px;
             border-radius: 5px;
             color: #00ff88;
@@ -41,4 +43,30 @@ bottomSections: []
             white-space: pre-wrap;
             position: relative;
         }
+        button {
+            background-color: #00ff88;
+            color: #121212;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        button:hover {
+            background-color: #00cc70;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Blade Ball Script</h1>
+        <div class="code-container">
+            <pre><code id="codeBlock">loadstring(game:HttpGet("https\://raw\.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()</code>
+</script>
+
+</body>
+</html>
 
