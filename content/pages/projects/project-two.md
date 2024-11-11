@@ -10,7 +10,7 @@ description: >-
   most of the time.
 featuredImage:
   type: ImageBlock
-  url: /images/addtext_com_MjAzMzM3NjgwMjg (1).jpg
+  url: /images/addtext_com_MjAzMzM3NjgwMjg (1) (1).jpg
   altText: Roblox logo
 media:
   type: ImageBlock
