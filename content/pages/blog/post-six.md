@@ -102,7 +102,7 @@ bottomSections:
       text:
         textAlign: left
 ---
-> <!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en">
 <head>
@@ -137,15 +137,12 @@ bottomSections:
             background-color: #333333;
             padding: 15px;
             border-radius: 5px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+            color: #00ff88;
+            text-align: left;
             font-family: monospace;
             font-size: 14px;
-            color: #00ff88;
-        }
-        .code {
-            overflow-x: auto;
+            white-space: pre-wrap;
+            position: relative;
         }
         button {
             background-color: #00ff88;
@@ -155,6 +152,9 @@ bottomSections:
             border-radius: 5px;
             cursor: pointer;
             font-weight: bold;
+            position: absolute;
+            top: 10px;
+            right: 10px;
         }
         button:hover {
             background-color: #00cc70;
@@ -165,21 +165,19 @@ bottomSections:
     <div class="container">
         <h1>Blade Ball Script</h1>
         <div class="code-container">
-            <span class="code">loadstring(game:HttpGet(\\"https\\://raw\\.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua\\", true))()</span>
+            <pre><code id="codeBlock">loadstring(game:HttpGet("https\://raw\.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()</code></pre>
             <button onclick="copyToClipboard()">Copy</button>
         </div>
     </div>
 
-```
-<script>
-    function copyToClipboard() {
-        const code = document.querySelector('.code').innerText;
-        navigator.clipboard.writeText(code)
-            .then(() => alert("Скопировано в буфер обмена!"))
-            .catch(err => console.error('Ошибка при копировании: ', err));
-    }
-</script>
-```
+    <script>
+        function copyToClipboard() {
+            const code = document.getElementById('codeBlock').innerText;
+            navigator.clipboard.writeText(code)
+                .then(() => alert("Скопировано в буфер обмена!"))
+                .catch(err => console.error('Ошибка при копировании: ', err));
+        }
+    </script>
 
 ```
 </body>
