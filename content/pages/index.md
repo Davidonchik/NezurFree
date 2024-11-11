@@ -44,7 +44,7 @@ sections:
     elementId: ''
     colors: colors-f
     variant: variant-d
-    subtitle: Best scripts
+    subtitle: Top 3 best scripts
     showFeaturedImage: false
     actions:
       - type: Link
