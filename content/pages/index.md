@@ -44,7 +44,7 @@ sections:
     elementId: ''
     colors: colors-f
     variant: variant-d
-    subtitle: Featured Posts
+    subtitle: Best scripts
     showFeaturedImage: false
     actions:
       - type: Link
