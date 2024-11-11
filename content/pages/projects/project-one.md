@@ -2,7 +2,7 @@
 type: ProjectLayout
 title: Nezur Keyless
 colors: colors-a
-date: '2021-10-15'
+date: ''
 client: Nezur
 description: Download fast and free Nezur Keyless
 featuredImage:
