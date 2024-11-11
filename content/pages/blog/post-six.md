@@ -104,12 +104,12 @@ bottomSections:
 ---
 <!DOCTYPE html>
 
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blade Ball Script</title>
-<style>
+<html lang=\"en\"\>
+<head\>
+<meta charset=\"UTF-8\"\>
+<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"\>
+<title\>Blade Ball Script</title\>
+<style\>
 body {
     color: #ffffff;
     font-family: Arial, sans-serif;
@@ -168,22 +168,22 @@ button:hover {
     opacity: 0;
     transition: opacity 0.3s ease;
 }
-</style>
-</head>
-<body>
-<div class="container">
-<h1>Blade Ball Script</h1>
-<div class="code-container">
-<pre><code id="codeBlock">loadstring(game:HttpGet("https\\\\://raw\\\\.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()</code></pre>
-<button onclick="copyToClipboard()">Copy</button>
-<div id="copyMessage" class="copy-message">Copied!</div>
-</div>
-</div>
+</style\>
+</head\>
+<body\>
+<div class=\"container\"\>
+<h1\>Blade Ball Script</h1\>
+<div class=\"code-container\"\>
+<pre\><code id=\"codeBlock\"\>loadstring(game:HttpGet(\"https\\\\://raw\\\\.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua\", true))()</code\></pre\>
+<button onclick=\"copyToClipboard()\"\>Copy</button\>
+<div id=\"copyMessage\" class=\"copy-message\"\>Copied!</div\>
+</div\>
+</div\>
 
 \<script>
 function copyToClipboard() {
-    // Get the text from the code block
-    const codeBlock = document.getElementById("codeBlock").textContent;
+// Get the text from the code block
+const codeBlock = document.getElementById("codeBlock").textContent;
 
     // Create a temporary text area to copy the content to clipboard
     const textarea = document.createElement("textarea");
@@ -201,9 +201,8 @@ function copyToClipboard() {
     setTimeout(() => {
         copyMessage.style.opacity = 0;
     }, 300);
+
 }
 </script>
-
 </body>
 </html>
-
