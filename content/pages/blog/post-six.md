@@ -33,7 +33,6 @@ bottomSections: []
             text-align: center;
         }
         .code-container {
-            background-color: #333333;
             padding: 15px;
             border-radius: 5px;
             color: #00ff88;
