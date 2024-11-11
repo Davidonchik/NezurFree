@@ -11,8 +11,11 @@ featuredImage:
   altText: Post thumbnail image
 bottomSections: []
 ---
+```
 <!DOCTYPE html>
+```
 
+```
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -64,9 +67,25 @@ bottomSections: []
     <div class="container">
         <h1>Blade Ball Script</h1>
         <div class="code-container">
-            <pre><code id="codeBlock">loadstring(game:HttpGet("https\://raw\.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()</code>
-</script>
+            <pre><code id="codeBlock">loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()</code></pre>
+            <button onclick="copyToClipboard()">Copy</button>
+        </div>
+    </div>
+```
 
+```
+<script>
+    function copyToClipboard() {
+        const code = document.getElementById('codeBlock').innerText;
+        navigator.clipboard.writeText(code)
+            .then(() => alert("Скопировано в буфер обмена!"))
+            .catch(err => console.error('Ошибка при копировании: ', err));
+    }
+</script>
+```
+
+```
 </body>
 </html>
+```
 
