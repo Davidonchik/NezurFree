@@ -102,7 +102,9 @@ bottomSections:
       text:
         textAlign: left
 ---
+```
 <!DOCTYPE html>
+```
 
 <html lang="en">
 <head>
@@ -169,7 +171,6 @@ bottomSections:
             <button onclick="copyToClipboard()">Copy</button>
         </div>
     </div>
-
 </body>
 </html>
 
