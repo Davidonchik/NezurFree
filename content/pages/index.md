@@ -196,4 +196,5 @@ sections:
 metaTitle: Home
 metaDescription: Home
 addTitleSuffix: false
+socialImage: /images/favicon.svg
 ---
