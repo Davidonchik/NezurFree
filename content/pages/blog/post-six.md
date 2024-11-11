@@ -169,3 +169,20 @@ bottomSections:
             <button onclick="copyToClipboard()">Copy</button>
         </div>
     </div>
+
+    <script>
+        function copyToClipboard() {
+            const code = document.getElementById('codeBlock').innerText;
+            const textArea = document.createElement('textarea');
+            textArea.value = code;
+            document.body.appendChild(textArea);
+            textArea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textArea);
+            alert('Code copied to clipboard!');
+        }
+    </script>
+
+</body>
+</html>
+
