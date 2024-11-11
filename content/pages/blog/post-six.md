@@ -102,8 +102,11 @@ bottomSections:
       text:
         textAlign: left
 ---
+```
 <!DOCTYPE html>
+```
 
+```
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -169,16 +172,21 @@ bottomSections:
             <button onclick="copyToClipboard()">Copy</button>
         </div>
     </div>
+```
 
-    <script>
-        function copyToClipboard() {
-            const code = document.querySelector('.code').innerText;
-            navigator.clipboard.writeText(code)
-                .then(() => alert("Скопировано в буфер обмена!"))
-                .catch(err => console.error('Ошибка при копировании: ', err));
-        }
-    </script>
+```
+<script>
+    function copyToClipboard() {
+        const code = document.querySelector('.code').innerText;
+        navigator.clipboard.writeText(code)
+            .then(() => alert("Скопировано в буфер обмена!"))
+            .catch(err => console.error('Ошибка при копировании: ', err));
+    }
+</script>
+```
 
+```
 </body>
 </html>
+```
 
