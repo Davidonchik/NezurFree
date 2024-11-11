@@ -14,7 +14,7 @@ bottomSections:
     type: RecentPostsSection
     colors: colors-f
     variant: variant-d
-    subtitle: Recent posts
+    subtitle: Recent scripts
     showDate: true
     showAuthor: false
     showExcerpt: true
