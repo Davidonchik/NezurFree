@@ -11,7 +11,7 @@ featuredImage:
   altText: Nezur logo
 backgroundImage:
   type: BackgroundImage
-  url: /images/bg2.jpg
+  url: /images/featured-Image1.jpg
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
