@@ -1,6 +1,6 @@
 ---
 type: PostLayout
-title: "Blade Ball \U0001F5C2️"
+title: "Blade Ball Plontium.lua \U0001F5C2️"
 colors: colors-a
 date: '2024-06-03'
 author: content/data/team/doris-soto.json
