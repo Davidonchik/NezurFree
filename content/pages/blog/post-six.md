@@ -11,4 +11,3 @@ featuredImage:
   altText: Post thumbnail image
 bottomSections: []
 ---
-``
