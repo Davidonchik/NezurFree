@@ -195,6 +195,6 @@ sections:
         textAlign: left
 metaTitle: Home
 metaDescription: Home
-addTitleSuffix: false
+addTitleSuffix: true
 socialImage: /images/a_aac76f50fea691eac237c7fec22fc224 (1) (2).jpg
 ---
