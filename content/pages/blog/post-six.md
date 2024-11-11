@@ -103,7 +103,6 @@ bottomSections:
         textAlign: left
 ---
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -170,12 +169,14 @@ background-color: #00cc70;
 </div>
 </div>
 
-```
-<script>
-    
-</script>
-```
+    <script>
+        function copyToClipboard() {
+            const code = document.getElementById('codeBlock').innerText;
+            navigator.clipboard.writeText(code)
+                .then(() => alert("Скопировано в буфер обмена!"))
+                .catch(err => console.error('Ошибка при копировании: ', err));
+        }
+    </script>
 
 </body>
 </html>
-
