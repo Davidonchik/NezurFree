@@ -103,13 +103,13 @@ bottomSections:
         textAlign: left
 ---
 <!DOCTYPE html><html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Blade Ball Script</title>
 <style>
 body {
-background-color: #121212;
 color: #ffffff;
 font-family: Arial, sans-serif;
 display: flex;
@@ -167,9 +167,4 @@ background-color: #00cc70;
 <button onclick="copyToClipboard()">Copy</button>
 </div>
 </div>
-
-
-
-
-
 
