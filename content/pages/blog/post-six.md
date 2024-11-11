@@ -78,9 +78,6 @@ bottomSections: []
             <button onclick="copyToClipboard()">Copy</button>
         </div>
     </div>
-```
-
-```
 <script>
     function copyToClipboard() {
         const code = document.querySelector('.code').innerText;
