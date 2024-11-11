@@ -42,21 +42,7 @@ bottomSections: []
             white-space: pre-wrap;
             position: relative;
         }
-        button {
-            background-color: #00ff88;
-            color: #121212;
-            border: none;
-            padding: 8px 12px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-weight: bold;
-            position: absolute;
-            top: 10px;
-            right: 10px;
-        }
-        button:hover {
-            background-color: #00cc70;
-        }
+      
     </style>
 </head>
 <body>
