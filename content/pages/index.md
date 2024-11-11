@@ -11,7 +11,7 @@ backgroundImage:
   opacity: 75
 sections:
   - type: FeaturedProjectsSection
-    subtitle: 'Projects:'
+    subtitle: ''
     actions:
       - type: Link
         label: See all projects
