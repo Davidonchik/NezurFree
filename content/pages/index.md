@@ -195,5 +195,5 @@ sections:
         textAlign: left
 metaTitle: Home
 metaDescription: Home
-addTitleSuffix: true
+addTitleSuffix: false
 ---
