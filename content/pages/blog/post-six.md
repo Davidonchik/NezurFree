@@ -33,18 +33,31 @@ bottomSections: []
             margin: 0;
         }
         .container {
+            background-color: #1e1e1e;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+            max-width: 600px;
+            width: 100%;
             text-align: center;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
         }
         .code-container {
             background-color: #333333;
             padding: 15px;
             border-radius: 5px;
-            color: #00ff88;
-            text-align: left;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             font-family: monospace;
             font-size: 14px;
-            white-space: pre-wrap;
-            position: relative;
+            color: #00ff88;
+        }
+        .code {
+            overflow-x: auto;
         }
         button {
             background-color: #00ff88;
@@ -54,9 +67,6 @@ bottomSections: []
             border-radius: 5px;
             cursor: pointer;
             font-weight: bold;
-            position: absolute;
-            top: 10px;
-            right: 10px;
         }
         button:hover {
             background-color: #00cc70;
@@ -67,7 +77,7 @@ bottomSections: []
     <div class="container">
         <h1>Blade Ball Script</h1>
         <div class="code-container">
-            <pre><code id="codeBlock">loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()</code></pre>
+            <span class="code">loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()</span>
             <button onclick="copyToClipboard()">Copy</button>
         </div>
     </div>
@@ -76,7 +86,7 @@ bottomSections: []
 ```
 <script>
     function copyToClipboard() {
-        const code = document.getElementById('codeBlock').innerText;
+        const code = document.querySelector('.code').innerText;
         navigator.clipboard.writeText(code)
             .then(() => alert("Скопировано в буфер обмена!"))
             .catch(err => console.error('Ошибка при копировании: ', err));
