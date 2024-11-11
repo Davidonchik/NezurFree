@@ -194,4 +194,5 @@ sections:
       text:
         textAlign: left
 metaTitle: Home
+metaDescription: Home
 ---
