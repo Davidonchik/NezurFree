@@ -9,7 +9,6 @@ featuredImage:
   url: /images/featured-Image6.jpg
   altText: Post thumbnail image
 bottomSections: []
-socialImage: /images/bg1.jpg
 ---
 loadstring(game:HttpGet("https\://raw\.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()
 
