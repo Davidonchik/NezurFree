@@ -49,7 +49,7 @@ sections:
     actions:
       - type: Link
         label: See all scripts
-        url: /blog
+        url: /scripts
     posts:
       - content/pages/blog/post-six.md
     showDate: true
